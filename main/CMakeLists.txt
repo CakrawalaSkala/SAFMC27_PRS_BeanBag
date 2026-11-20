@@ -1,5 +1,5 @@
 idf_component_register(
     SRCS "main.c"
     INCLUDE_DIRS "."
-    REQUIRES driver esp_driver_i2c esp_driver_ledc esp_timer freertos lora
+    PRIV_REQUIRES lora button easy_gpio esp_driver_gpio esp_driver_ledc driver i2c_master freertos log
 )

@@ -1,3 +1,4 @@
 {
-    "idf.currentSetup": "/home/kucing/.espressif/v6.1/esp-idf"
+    "idf.currentSetup": "/home/kucing/.espressif/v6.1/esp-idf",
+    "idf.port": "/dev/ttyACM0"
 }
