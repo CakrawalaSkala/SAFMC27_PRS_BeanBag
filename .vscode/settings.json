@@ -1,4 +1,9 @@
 {
-    "idf.currentSetup": "/home/kucing/.espressif/v6.1/esp-idf",
-    "idf.port": "/dev/ttyACM0"
+    "idf.currentSetup": "/home/areal/.espressif/v6.1/esp-idf",
+    "idf.port": "/dev/ttyACM0",
+    "idf.flashType": "UART",
+    "idf.openOcdConfigs": [
+        "board/esp32c3-builtin.cfg"
+    ],
+    "idf.customExtraVars": {}
 }

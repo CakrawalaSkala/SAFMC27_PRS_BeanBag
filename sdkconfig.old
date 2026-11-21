@@ -2250,7 +2250,7 @@ CONFIG_FATFS_DONT_TRUST_LAST_ALLOC=0
 # default:
 CONFIG_FREERTOS_UNICORE=y
 # default:
-CONFIG_FREERTOS_HZ=100
+CONFIG_FREERTOS_HZ=1000
 # default:
 CONFIG_FREERTOS_OPTIMIZED_SCHEDULER=y
 # default:
@@ -3476,6 +3476,21 @@ CONFIG_WL_SECTOR_SIZE_4096=y
 # default:
 CONFIG_WL_SECTOR_SIZE=4096
 # end of Wear Levelling
+
+#
+# Button configuration
+#
+# default:
+CONFIG_BUTTON_MAX_LISTENERS=8
+# default:
+CONFIG_BUTTON_DEBOUNCE_MS=30
+# default:
+CONFIG_BUTTON_POLL_INTERVAL_MS=20
+# default:
+CONFIG_BUTTON_TASK_STACK_SIZE=4096
+# default:
+CONFIG_BUTTON_TASK_PRIORITY=5
+# end of Button configuration
 # end of Component config
 
 # default:
